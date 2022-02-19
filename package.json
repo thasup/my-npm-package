@@ -4,14 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "del-cli ./build/*",
-    "build": "npm run clean && tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "thasup",
-  "license": "MIT",
-  "devDependencies": {
-    "del-cli": "^4.0.1",
-    "typescript": "^4.5.5"
-  }
+  "license": "MIT"
 }
