@@ -1,5 +1,5 @@
 {
-  "name": "@thasup.dev/common",
+  "name": "@thasup-dev/common",
   "version": "1.0.5",
   "description": "",
   "main": "./build/index.js",
