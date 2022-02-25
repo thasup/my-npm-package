@@ -10,6 +10,7 @@ export enum OrderStatus {
   Cancelled = "cancelled",
 
   // The order has successfully reserved the product.
+  // waiting for payment.
   Pending = "pending",
 
   // The order has reserved the product and the user has
