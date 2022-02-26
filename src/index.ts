@@ -21,3 +21,4 @@ export * from "./events/OrderCreatedEvent";
 export * from "./events/OrderCancelledEvent";
 
 export * from "./events/types/order-status";
+export * from "./events/types/queue-group-name";
