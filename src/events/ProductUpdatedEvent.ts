@@ -2,6 +2,7 @@ import { Subjects } from "./Subjects";
 
 export interface ProductUpdatedEvent {
   subject: Subjects.ProductUpdated;
+  version: number;
   data: {
     id: string;
     title: string;
