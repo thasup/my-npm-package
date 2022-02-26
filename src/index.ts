@@ -19,6 +19,7 @@ export * from "./events/ProductCreatedEvent";
 export * from "./events/ProductUpdatedEvent";
 export * from "./events/OrderCreatedEvent";
 export * from "./events/OrderCancelledEvent";
+export * from "./events/ExpirationCompletedEvent";
 
 export * from "./events/types/order-status";
 export * from "./events/types/queue-group-name";
