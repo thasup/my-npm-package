@@ -2,7 +2,6 @@ import { Subjects } from "./Subjects";
 
 export interface ProductCreatedEvent {
   subject: Subjects.ProductCreated;
-  version: number;
   data: {
     id: string;
     title: string;
@@ -18,5 +17,6 @@ export interface ProductCreatedEvent {
     numReviews: number;
     rating: number;
     countInStock: number;
+    version: number;
   };
 }
