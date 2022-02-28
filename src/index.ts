@@ -17,6 +17,7 @@ export * from "./events/Publisher";
 export * from "./events/Subjects";
 export * from "./events/ProductCreatedEvent";
 export * from "./events/ProductUpdatedEvent";
+export * from "./events/ProductDeletedEvent";
 export * from "./events/OrderCreatedEvent";
 export * from "./events/OrderCancelledEvent";
 export * from "./events/ExpirationCompletedEvent";
