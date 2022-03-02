@@ -1,6 +1,15 @@
 import { OrderStatus } from "..";
 import { Subjects } from "./Subjects";
 
+interface cartInterface {
+  title: string;
+  qty: number;
+  image: string;
+  price: number;
+  discount: number;
+  productId: string;
+}
+
 export interface OrderCreatedEvent {
   subject: Subjects.OrderCreated;
   data: {
@@ -9,6 +18,7 @@ export interface OrderCreatedEvent {
     userId: string;
     expiresAt: Date;
     version: number;
+    cart?: Array<cartInterface>;
     paymentMethod: string;
     itemsPrice: number;
     shippingPrice: number;
