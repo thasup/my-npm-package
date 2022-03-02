@@ -15,5 +15,5 @@ export enum OrderStatus {
 
   // The order has reserved the product and the user has
   // provided payment successfully.
-  Complete = "complete",
+  Completed = "completed",
 }

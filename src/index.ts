@@ -19,7 +19,7 @@ export * from "./events/ProductCreatedEvent";
 export * from "./events/ProductUpdatedEvent";
 export * from "./events/ProductDeletedEvent";
 export * from "./events/OrderCreatedEvent";
-export * from "./events/OrderCancelledEvent";
+export * from "./events/OrderUpdatedEvent";
 export * from "./events/ExpirationCompletedEvent";
 export * from "./events/PaymentCreatedEvent";
 
