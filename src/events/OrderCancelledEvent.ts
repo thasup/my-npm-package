@@ -9,14 +9,14 @@ export interface OrderCancelledEvent {
     userId: string;
     expiresAt: Date;
     version: number;
-    product: {
-      id: string;
-      title: string;
-      price: number;
-      image: string;
-      colors?: string;
-      sizes?: string;
-      countInStock: number;
-    };
+    paymentMethod: string;
+    itemsPrice: number;
+    shippingPrice: number;
+    taxPrice: number;
+    totalPrice: number;
+    isPaid?: boolean;
+    paidAt?: Date;
+    isDelivered?: boolean;
+    deliveredAt?: Date;
   };
 }
