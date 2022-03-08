@@ -17,6 +17,7 @@ export interface ProductCreatedEvent {
     numReviews: number;
     rating: number;
     countInStock: number;
+    orderId?: string;
     version: number;
   };
 }
