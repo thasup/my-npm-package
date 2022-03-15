@@ -4,6 +4,8 @@ import { Subjects } from "./Subjects";
 interface cartInterface {
   title: string;
   qty: number;
+  color: string;
+  size: string;
   image: string;
   price: number;
   discount: number;
